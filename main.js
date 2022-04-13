@@ -23,7 +23,7 @@ const speakersArr = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
-    name: "Miss Anyanwu Chidinm",
+    name: 'Miss Anyanwu Chidinma',
     imageLink: './img/dinmafaith.jpeg',
     role: 'CEO Dinmas fitness (fitness coach and junior front-end developer)',
     details:
@@ -38,7 +38,6 @@ const speakersArr = [
   },
   {
     name: 'Mrs Kate Henshaw',
-    imageLink: "./img/k.henshaw.jpeg",
     role: 'A professional Actress and Dietician.',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
