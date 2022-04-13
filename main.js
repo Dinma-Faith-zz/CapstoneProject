@@ -1,54 +1,53 @@
-const gridContainer = document.querySelector(".speaker_container");
+const gridContainer = document.querySelector('.speaker_container');
 
 const speakersArr = [
   {
-    name: "Mrs Kate Henshaw",
-    imageLink: "./img/k.henshaw.jpeg",
-    role: "A professional Actress and Dietician.",
+    name: 'Mrs Kate Henshaw',
+    imageLink: './img/k.henshaw.jpeg',
+    role: 'A professional Actress and Dietician.',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
-    name: "Mr Chris Asimole",
-    imageLink: "./img/asimole.jpeg",
-    role: "CEO and Brand-Manager Asim's Sports.",
+    name: 'Mr Chris Asimole',
+    imageLink: './img/asimole.jpeg',
+    role: 'CEO and Brand-Manager Asims Sports.',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
-    name: "Dr Mercy Eneh",
-    imageLink: "./img/mercy.jpeg",
-    role: "A health practitioner,<br> Brand and User Interface designer",
+    name: 'Dr Mercy Eneh',
+    imageLink: './img/mercy.jpeg',
+    role: 'A health practitioner,<br> Brand and User Interface designer',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
     name: "Miss Anyanwu Chidinm",
-    imageLink: "./img/dinmafaith.jpeg",
-    role: "CEO Dinma's fitness (fitness coach and junior front-end developer)",
+    imageLink: './img/dinmafaith.jpeg',
+    role: 'CEO Dinmas fitness (fitness coach and junior front-end developer)',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
-    name: "Mr Chris Asimole",
-    imageLink: "./img/asimole.jpeg",
-    role: "CEO and Brand-Manager Asim's Sports.",
+    name: 'Mr Chris Asimole',
+    imageLink: './img/asimole.jpeg',
+    role: 'CEO and Brand-Manager Asims Sports',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
   {
-    name: "Mrs Kate Henshaw",
+    name: 'Mrs Kate Henshaw',
     imageLink: "./img/k.henshaw.jpeg",
-    role: "A professional Actress and Dietician.",
+    role: 'A professional Actress and Dietician.',
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.",
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
   },
 ];
-console.log(speakersArr);
 function show() {
-    gridContainer.innerHTML = '';
-    speakersArr.forEach((arr) => {
-        gridContainer.innerHTML += `
+  gridContainer.innerHTML = '';
+  speakersArr.forEach((arr) => {
+    gridContainer.innerHTML += `
         <div class="flex-mobile">
         <div class="speaker-details">
               <div class="speaker">
@@ -72,10 +71,6 @@ function show() {
                 ${arr.details}
               </p>
               </div>
-            </div>`
-            console.log(arr);
-    })
+            </div>`;
+  });
 }show();
-
-
-
