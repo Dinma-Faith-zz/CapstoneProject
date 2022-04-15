@@ -17,7 +17,6 @@ function remove() {
 }
 close.addEventListener('click', remove);
 
-
 link.forEach((link) => {
   link.addEventListener('click', remove);
 });
