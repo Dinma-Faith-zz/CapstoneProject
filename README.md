@@ -1,14 +1,23 @@
-# Fitness-Health-Website
+# Capstone Project:
 
-# Portfolio
 
-The desktop version of my portfolio.
 
 ## Built With
 
 - HTML
+
 - CSS
+
 - JavaScript
+
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits    for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+
 
 ## Getting Started
 
@@ -40,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 - **npx eslint .** : To test Eslint Report
 
 ## Live Demo
-- [live link](https://dinma-faith.github.io/Dinma-Portfolio.github.io/)
+- [live link](https://dinma-faith.github.io/CapstoneProject/)
 
 👤 **Dinma-Faith**
 
@@ -51,7 +60,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-- GitHub: [@githubhandle](https://github.com/abiodunraheem)
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
@@ -60,4 +68,10 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
+The design has been inspired by:
+
+[Cindy Shin](https://www.behance.net/adagio07) design on Behance
+
+Microverse: [Microverse](https://www.microverse.org)

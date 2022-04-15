@@ -9,16 +9,29 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Healthy Life</title>
+    <title>Home Page</title>
   </head>
 
   <body>
     <main class="main-container">
       <header>
-        <nav>
+        <nav class="menu">
           <span class="bars" id="barsBtn"
             ><a href="#"><i class="fa-solid fa-bars"></i></a
           ></span>
+
+          <div class="nav-links">
+            <i class="fa-solid fa-xmark"></i>
+            <ul>
+                <li><a class="link" href="./index.html">Home</a></li>
+                <li><a class="link" href="./about.html">About</a></li>
+                <li><a class="link" href="#">Program</a></li>
+                <li><a class="link" href="#">Join</a></li>
+                <li><a class="link" href="#">Sponsor</a></li>
+                <li><a class="link" href="#">News</a></li>
+                <li><a class="static-link" href="#">Health campaign</a></li>
+            </ul>
+        </div>
         </nav>
 
         <!-- Desktop Navigator -->
@@ -37,9 +50,9 @@
             </ul>
           </div>
           <div class="desktop-nav">
-            <a href="#"><img src="./img/fitfam.jpg" alt="ff-icon" /></a>
+            <a href="index.html"><img src="./img/fitfam.jpg" alt="ff-icon" /></a>
             <ul class="desktop-link">
-              <li><a class="link" href="./about.html">About</a></li>
+              <li><a class="link" href="about.html">About</a></li>
               <li><a class="link" href="#">Program</a></li>
               <li><a class="link" href="#">Join</a></li>
               <li><a class="link" href="#">Sponsor</a></li>
@@ -58,9 +71,7 @@
           </div>
 
           <p class="home-paragraph">
-            Participant will get an opportunity to partcipate in various
-            pre-conferences, panel discussions, lectures, and hands-on
-            workshops, coverind a wide range of topics and disciplines.
+            Benefits of getting involved in physical activities and healthy eating lifestyle.
           </p>
           <div class="date">2022.03.11(MON) ~ (FRI)</div>
           <p class="venue">@DOMINION CITY Ajah-Lagos,Nigeria.</p>
@@ -89,7 +100,7 @@
             </p>
           </div>
           <div class="program">
-            <span class="heart"><i class="fa-solid fa-heart"></i></span>
+            <img src="./img/lecture.png" alt="">
             <h3>HeartCare</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
@@ -160,6 +171,7 @@
       </footer>
     </main>
 
-    <script src="main.js"></script>
+    <script src="index.js"></script>
+    <script src="modal.js"></script>
   </body>
 </html>

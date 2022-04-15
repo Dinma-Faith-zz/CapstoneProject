@@ -9,8 +9,7 @@
 body {
   background-image: url(./img/mobile-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
 }
 
 .h1 {
@@ -35,6 +34,7 @@ li {
   display: block;
   top: 0;
   padding-left: 5%;
+  z-index: 1;
 }
 
 .bars a {
@@ -43,6 +43,57 @@ li {
 
 .top-icons ul {
   display: none;
+}
+
+.fa-solid.fa-bars {
+  font-size: 33px;
+  cursor: pointer;
+}
+
+.nav-links {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ec5242;
+  padding-left: 5%;
+  padding-top: 2%;
+  height: 100vh;
+  display: none;
+}
+
+.nav-links.show {
+  animation-name: change;
+  animation-duration: 0.7s;
+  display: block;
+}
+
+@keyframes change {
+  from { opacity: 0; }
+  to { opacity: 0.9; }
+}
+
+.nav-links ul {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.fa-solid.fa-xmark {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.nav-links li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .desktop-nav {
@@ -184,7 +235,6 @@ li {
 }
 
 .speaker-img img {
-  /* position: absolute; */
   width: 100px;
   height: 100px;
   margin-top: 20%;
@@ -255,12 +305,149 @@ li {
   background-color: #272a31;
 }
 
+/* About Section */
+
+.h2 {
+  text-align: center;
+}
+
+.mail-line {
+  margin-inline: 35%;
+}
+
+.about-section {
+  background-color: #fff;
+  padding-top: 10%;
+}
+
+.about_contact {
+  text-align: center;
+  color: #272a31;
+  padding: 10% 10%;
+  line-height: 20px;
+  margin-top: -13%;
+
+}
+
+.about-paragraph {
+  margin: 9% 8% 5% 8%;
+  padding: 4% 3%;
+  line-height: 25px;
+  color: #272a31;
+  border: 1px solid #d3d3d3 ;
+  background-color: #fff;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 1px 2px 20px -4px grey;
+}
+
+.logo-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-text {
+  font-weight: 500;
+  text-align: center;
+  padding-inline: 10%;
+}
+
+.about_hr {
+  border: 1px solid #a1574f;
+  width: 6%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.small_paragraph {
+  text-align: center;
+  padding-inline: 10%;
+  color: grey;
+  padding-bottom: 3%;
+}
+
+.about_logo img {
+  width: 90%;
+  height: 40vh;
+  margin-left: 5%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding-inline: 5%;
+}
+
+.header {
+  margin-top: 6%;
+}
+
+.picture_presentation {
+  display: block;
+}
+
+.previous_events {
+  position: relative;
+  display: block;
+}
+
+.previous_events img {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 5%;
+  opacity: 0.60;
+}
+
+.previous_events img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.conference_year {
+  position: absolute;
+  left: 38%;
+  top: 26%;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.conference_venue {
+  position: absolute;
+  left: 7%;
+  top: 33%;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  width: 80%;
+  padding-inline: 1%;
+}
+
+event_image {
+  position: relative;
+}
+
+.list img {
+  width: 45%;
+  object-fit: cover;
+}
+
+.partner_h2 {
+  margin-top: 0;
+}
+
 /* Media-Queries */
 @media screen and (min-width: 768px) {
   .nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
+  }
+
+  body {
+    background-image: url(./img/website-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .top-icons ul {
@@ -345,8 +532,13 @@ li {
     padding-top: 15%;
     padding-bottom: 15%;
     height: 100%;
-    transition: all 350ms;
+    transition: all 400ms;
     transform: scale(1);
+  }
+
+  .program:hover {
+    transform: scale(1.05);
+    border: 1px solid #fff;
   }
 
   .program-btn {
@@ -370,5 +562,28 @@ li {
   .speaker_container {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  /* About Page */
+  .picture_presentation {
+    display: flex;
+  }
+
+  .previous_events {
+    display: flex;
+  }
+
+  .year {
+    left: 21%;
+    top: 56%;
+  }
+
+  .venue {
+    left: -21%;
+    top: 67%;
+  }
+
+  .close-btn {
+    display: none;
   }
 }

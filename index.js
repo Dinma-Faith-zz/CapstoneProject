@@ -38,6 +38,7 @@ const speakersArr = [
   },
   {
     name: 'Mrs Kate Henshaw',
+    imageLink: './img/k.henshaw.jpeg',
     role: 'A professional Actress and Dietician.',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemoalias adipisci veniam.',
