@@ -582,7 +582,19 @@ li {
     top: 67%;
   }
 
-  .close-btn {
+  .menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links li {
+    display: none;
+  }
+
+  .nav-links li a {
     display: none;
   }
 }
