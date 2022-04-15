@@ -326,7 +326,6 @@ li {
   padding: 10% 10%;
   line-height: 20px;
   margin-top: -13%;
-
 }
 
 .about-paragraph {
@@ -334,7 +333,7 @@ li {
   padding: 4% 3%;
   line-height: 25px;
   color: #272a31;
-  border: 1px solid #d3d3d3 ;
+  border: 1px solid #d3d3d3;
   background-color: #fff;
   z-index: 1;
   text-align: center;
@@ -389,11 +388,16 @@ li {
   display: block;
 }
 
+.list img {
+  width: 45%;
+  object-fit: cover;
+}
+
 .previous_events img {
   width: 80%;
   margin-left: 10%;
   padding-bottom: 5%;
-  opacity: 0.60;
+  opacity: 0.6;
 }
 
 .previous_events img:hover {
@@ -422,13 +426,8 @@ li {
   padding-inline: 1%;
 }
 
-event_image {
+.event_image {
   position: relative;
-}
-
-.list img {
-  width: 45%;
-  object-fit: cover;
 }
 
 .partner_h2 {
