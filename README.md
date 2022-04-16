@@ -1,5 +1,12 @@
 # Capstone Project:
 
+** Desktop Version **
+
+ - (file:///home/chidinma/Pictures/dstop.png)
+
+ ** Mobile Version **
+
+ -(file:///home/chidinma/Pictures/mobile.png)
 
 
 ## Built With
@@ -51,7 +58,7 @@ To get a local copy up and running follow these simple example steps.
 ## Live Demo
 - [live link](https://dinma-faith.github.io/CapstoneProject/)
 
-👤 **Dinma-Faith**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/Dinma-Faith)
 - Twitter: [@twitterhandle](https://twitter.com/paul_dinma)
