@@ -466,7 +466,6 @@ li {
   a.static-link {
     border: 4px solid #ec5242;
     font-size: 20px;
-    /* margin-left: 15px; */
     padding-inline: 10px;
     padding-bottom: 5px;
     text-decoration: none;
@@ -593,7 +592,7 @@ li {
     width: 100%;
     padding: 5%;
   }
-  
+
   .first {
     background: linear-gradient(rgba(72, 0, 6, 0.8), rgba(192, 72, 72, 0.8)), url(./img/conference2.jpeg);
     width: 40%;
@@ -605,7 +604,7 @@ li {
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .second {
     background: linear-gradient(rgba(72, 0, 6, 0.8), rgba(192, 72, 72, 0.8)), url(./img/fit-women-conference-2021.jpg);
     width: 40%;
@@ -616,7 +615,7 @@ li {
     justify-content: center;
     align-items: center;
   }
-  
+
   .menu {
     display: none;
   }
