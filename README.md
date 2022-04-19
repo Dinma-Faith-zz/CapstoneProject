@@ -1,12 +1,14 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Capstone Project:
 
 ** Desktop Version **
 
- - (file:///home/chidinma/Pictures/dstop.png)
+ - file:///home/chidinma/Pictures/dstop.png
 
  ** Mobile Version **
 
- -(file:///home/chidinma/Pictures/mobile.png)
+ - file:///home/chidinma/Pictures/mobile.png
 
 
 ## Built With
