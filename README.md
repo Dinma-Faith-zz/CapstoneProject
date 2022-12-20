@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 - **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
 - **npx eslint .** : To test Eslint Report
 
-## Live Demo
+## Live-Demo
 - [live link](https://conferenceproject.netlify.app/)
 
 👤 **Author**
