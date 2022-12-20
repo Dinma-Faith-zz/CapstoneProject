@@ -1,15 +1,15 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Capstone Project:
 
 ** Mobile Version **
 
 ![summit-mb](https://user-images.githubusercontent.com/69027469/173850744-aa7e0935-44aa-4e52-94f0-7bf7900d4e11.jpeg)
 
-
  ** Desktop Version **
 
  ![summit](https://user-images.githubusercontent.com/69027469/173850838-18cc6432-5348-447d-a488-4e60f0266c0c.jpeg)
-
-
+ 
 
 ## Built With
 
